@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  //https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#version-3.0.5-pre-release
+  "eslint.useFlatConfig": true,
+  // This configuration ensures the whole team is using the same TypeScript sdk from node modules
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
