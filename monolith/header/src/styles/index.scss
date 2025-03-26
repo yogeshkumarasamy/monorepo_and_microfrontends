@@ -1,0 +1,30 @@
+@use 'scaffolding';
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf');
+}
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#root {
+  color: #000;
+  width: 80%;
+}
+.header {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  & .logo {
+    margin-right: 10px;
+  }
+  & .nav-item {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+}
